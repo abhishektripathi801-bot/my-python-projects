@@ -40,3 +40,25 @@ print("Symmetric difference of set a and set b:", a^b)     # symmetric differenc
 
 #a.pop()         # The removed element is arbitrary, not random can’t predict which one it will be.
 
+myset = {9,6,4,3,7,2,}
+mylist = list(myset)        # convert set to list
+print("converted set to list is:", mylist)
+
+
+mytouple = tuple(myset)       # convert set to touple
+print("converted set to touple is:", mytouple) 
+
+set1 = {99,44,22,67,89,90,12}
+
+sorted_list = sorted(set1)        # sort the set and convert it to list
+print("sorted set1 is:", sorted_list)
+
+sorted_tuple = tuple(sorted(set1))       # sort the set and convert it to touple
+print("converted to tuple is:", sorted_tuple)
+
+
+ 
+
+
+
+
