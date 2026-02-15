@@ -9,7 +9,7 @@ fs = frozenset(f)     # create frozenset from set f
 print(fs)
 
 list1 = list(fs)      # convert frozenset to list
-print("converted fronzenset to list os:", list1)
+print("converted fronzenset to list is:", list1)
 
 list1.append(28)
 list1.append(45)
