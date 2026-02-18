@@ -22,3 +22,4 @@ dineing_room.calculate_area("Dining Room")
 # 4th object of the class
 kitchen = Room(20.00,15.00)
 kitchen.calculate_area("Kitchen")
+
