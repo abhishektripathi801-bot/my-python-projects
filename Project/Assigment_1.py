@@ -33,8 +33,3 @@ display_product(102, "Apple", 250)
 Final_Price = quantity_product(250, 5)
 
 print("Total price after discount as per quantity is:", Final_Price)
-
-
-    
-    
-    
