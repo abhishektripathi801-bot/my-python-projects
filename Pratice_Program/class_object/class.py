@@ -25,7 +25,7 @@ class Room:
         
 # 1st object of the claas
 study_room = Room() 
-study_room.length =  42.0
+study_room.length =  42.0 
 study_room.breadth = 10.0
 
 study_room.calculate_area()
