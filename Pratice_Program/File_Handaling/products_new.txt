@@ -1,0 +1,3 @@
+101,Laptop,45000
+102,Watch,3000
+103,Headphones,1000

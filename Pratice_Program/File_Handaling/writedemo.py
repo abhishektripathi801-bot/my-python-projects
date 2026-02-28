@@ -1,27 +1,27 @@
 def add_product(product_id, name, price):
-    file = open("product.txt", "a") #open file and update data
+    file = open("products_new.txt", "a")   # Open file in append mode
     
     record = f"{product_id},{name},{price}\n"
     file.write(record)
     
-    file.close()
+    file.close()   # Manually closing file
 
 
-# Function calls (OUTSIDE the function)
 add_product(101, "Laptop", 45000)
-add_product(102, "Mobile", 85000)
-add_product(103, "Watch", 5000)
-add_product(104, "Earbud", 3000)
-add_product(105, "Adapter", 1000)
+add_product(102, "Watch", 3000)
+add_product(103, "Headphones", 1000)
 
 
-print("========================reading all the data from file===============")
+print("============= Reading all data from the file =============")
 
-def read_prodct():
-   file = open("product.txt", "r") #open file in read moe
-   data = file.read()
-   print(data)
-   
-   file.close()
-   
-   read_prodct()
+
+def read_products():
+    file = open("products_new.txt", "r")   # Open file in read mode
+    
+    data = file.read()
+    print(data)
+    
+    file.close()   # Manually closing file
+
+
+read_products()

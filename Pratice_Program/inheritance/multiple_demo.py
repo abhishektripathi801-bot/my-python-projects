@@ -23,19 +23,19 @@ class Brand(Product):
     def __init__(self, brand, **kwargs):
         super().__init__(**kwargs)
         self.brand = brand
-        print("we re in brand constractor")
+        print("we are in brand constractor")
         
-    def display_brad(self):
+    def display_brand(self):
       print(f"Product :{self.name} has the price as INR.{self.price} with brand as {self.brand}")
         
         
-class MyProduct(Electronic, BaseException):
+class MyProduct(Electronic, Brand):
     def __init__(self, name, price, category, brand, discount):
         super().__init__(name=name, price=price, category=category, brand=brand)
         self.discount = discount
         
     def all_details(self):
-        self.deisplay_category()
+        self.display_category()
         self.display_brand()
         self.display_basic()
         
