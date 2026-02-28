@@ -22,19 +22,19 @@ class Flight:
         elif destination:
             self.destination = destination
     
-flight1 = Flight("AI101", "Delhi", "Mumbai", 5000)
+f1 = Flight("AI101", "Delhi", "Mumbai", 5000)
 
-print(flight1.get_flight_info())
+print(f1.get_flight_info())
 
-print("Total Fare (3 passengers):", flight1.calculate_fare(3))
+print("Total Fare (3 passengers):", f1.calculate_fare(3))
 
-print("Total Fare (3 passengers, 10% discount):", flight1.calculate_fare(3, 10))
+print("Total Fare (3 passengers, 10% discount):", f1.calculate_fare(3, 10))
 
-flight1.update_route(destination="Bangalore")
-print("Updated Info:", flight1.get_flight_info())
+f1.update_route(destination="Bangalore")
+print("Updated Info:", f1.get_flight_info())
 
-flight1.update_route("Chennai", "Hyderabad")
-print("Updated Info:", flight1.get_flight_info())
+f1.update_route("Chennai", "Hyderabad")
+print("Updated Info:", f1.get_flight_info())
             
         
     
