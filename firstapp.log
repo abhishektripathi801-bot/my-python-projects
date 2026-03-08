@@ -1,0 +1,22 @@
+2026-03-08 10:17:45,296 - DEBUG - This is debug messgae
+2026-03-08 10:17:45,296 - INFO - This is INFO message for the developers only
+2026-03-08 10:17:45,296 - WARNING - This is warning message
+2026-03-08 10:17:45,296 - ERROR - This is error message
+2026-03-08 10:17:45,296 - CRITICAL - This is critical message
+2026-03-08 10:17:45,296 - INFO - Program has started
+2026-03-08 10:17:45,296 - WARNING - Again the warning came
+2026-03-08 10:17:45,296 - INFO - Payment function is started
+2026-03-08 10:17:45,296 - INFO - payment processed for 500
+2026-03-08 10:17:45,296 - INFO - Payment function is started
+2026-03-08 10:17:45,296 - ERROR - Invalid negative amount
+2026-03-08 10:26:57,959 - DEBUG - This is debug messgae
+2026-03-08 10:26:57,959 - INFO - This is INFO message for the developers only
+2026-03-08 10:26:57,959 - WARNING - This is warning message
+2026-03-08 10:26:57,959 - ERROR - This is error message
+2026-03-08 10:26:57,959 - CRITICAL - This is critical message
+2026-03-08 10:26:57,959 - INFO - Program has started
+2026-03-08 10:26:57,959 - WARNING - Again the warning came
+2026-03-08 10:26:57,959 - INFO - Payment function is started
+2026-03-08 10:26:57,959 - INFO - payment processed for 500
+2026-03-08 10:26:57,959 - INFO - Payment function is started
+2026-03-08 10:26:57,959 - ERROR - Invalid negative amount
