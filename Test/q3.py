@@ -2,9 +2,9 @@ class Product:
     def __init__(self):
         self.id = 78
         self.name = "Amul"
-
-    def display(self):
-        print("ID:", self.id)
+        
+        def display(self):
+            print("ID:", self.id)
         print("Name:", self.name)
 
 class Butter(Product):

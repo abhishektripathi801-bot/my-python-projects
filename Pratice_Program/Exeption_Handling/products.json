@@ -1,0 +1,30 @@
+      [
+    {
+        "id": "P101",
+        "name": "Laptop",
+        "price": 45000,
+        "stock":10
+    },
+    {
+        "id": "P102",
+        "name": "LED TV",
+        "price": 15000,
+        "stock":20
+    },
+    {
+        "id": "P103",
+        "name": "LED TV",
+        "price": -5000,
+        "stock":20
+    },
+    {
+        "name": "LED TV",
+        "price": 1000,
+        "stock":20
+    },
+    {
+        "id": "P104",
+        "name": "LED TV",
+        "stock":20
+    }
+]
